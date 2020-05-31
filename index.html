@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Kanban Board</title>
+    <link
+      rel="shortcut icon"
+      href="https://image.flaticon.com/icons/svg/149/149017.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/src/stylus/main.css" />
+  </head>
+  <body>
+    <div class="boards">
+      <div class="board">
+        <h3>Initing project</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status green"></div>
+            <div class="content">Planning</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status green"></div>
+            <div class="content">Requirements gathering</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status green"></div>
+            <div class="content">Organizing the team</div>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <h3>In progress</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status red"></div>
+            <div class="content">Testing App</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status red"></div>
+            <div class="content">Development</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status red"></div>
+            <div class="content">Reviewing code</div>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <h3>Done</h3>
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status blue"></div>
+            <div class="content">Deploy App</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status blue"></div>
+            <div class="content">Distributing the application to testers</div>
+          </div>
+          <div class="card" draggable="true">
+            <div class="status blue"></div>
+            <div class="content">Propaganda</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Scripts -->
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>
