@@ -1,0 +1,90 @@
+* {
+  font-family: "Circular Std Book", sans-serif;
+}
+
+body {
+  background-color: #130f0d;
+  color: white;
+}
+
+.boards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 32px;
+}
+
+.boards .board {
+  background: #141316;
+  border: 1px solid #fd951f11;
+  border-radius: 4px;
+  margin: 0px 26px;
+}
+
+.boards .board h3 {
+  padding: 16px;
+  margin: 0;
+  color: #fd951fcc;
+}
+
+.boards .board .dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.boards .board .dropzone .card {
+  padding: 16px;
+  -webkit-box-shadow: 0 2px 2px -1px #fd951fcc;
+          box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  background: #1a1a1c;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.boards .board .dropzone .card .status {
+  width: 30px;
+  height: 8px;
+  background: gray;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.boards .board .dropzone .card .green {
+  background: #23d2ac;
+}
+
+.boards .board .dropzone .card .red {
+  background: red;
+}
+
+.boards .board .dropzone .card .blue {
+  background: #33adff;
+}
+
+.highlight {
+  background-color: #fd951f08;
+}
+
+.dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over-dropzone {
+  background-color: #4cd13711;
+}
+/*# sourceMappingURL=main.css.map */
